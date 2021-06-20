@@ -1,0 +1,4 @@
+curl --header "Content-Type: application/json" \
+  --request POST \
+  --data '{"temperature":35,"humidity":50}' \
+  http://localhost:8080/insert
